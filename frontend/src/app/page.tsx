@@ -54,7 +54,7 @@ export default function Home() {
             {/* The single filled-black button period */}
             <div className="mt-8">
               <a
-                href="mailto:contact@example.com"
+                href="mailto:jinow1@pusan.ac.kr"
                 className="inline-flex items-center justify-center bg-graphite text-white font-medium text-sm px-5 py-2.5 rounded-lg border border-graphite hover:bg-white hover:text-graphite transition-all duration-300"
               >
                 Inquire & Contact Profile
