@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --radius-lg: 0.625rem;
-  --color-background: #ffffff;
-  --color-foreground: #262626;
-  --color-card: #ffffff;
-  --color-card-foreground: #262626;
-  --color-popover: #ffffff;
-  --color-popover-foreground: #262626;
-  --color-primary: #1c69d4;
+  /* Colors */
+  --color-graphite: #0a0a0a;
+  --color-pure-black: #000000;
+  --color-carbon: #171717;
+  --color-concrete: #737373;
+  --color-ash: #a1a1a1;
+  --color-smoke: #b9b9b9;
+  --color-hairline: #e5e5e5;
+  --color-mist: #f2f2f2;
+  --color-chalk: #ffffff;
+
+  /* Typography */
+  --font-geist: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Border Radius */
+  --radius-md: 4px;
+  --radius-lg: 10px;
+  --radius-xl: 14px;
+  --radius-3xl: 26px;
+  --radius-full: 9999px;
+
+  /* Primary system overrides for variables */
+  --color-primary: #0a0a0a;
   --color-primary-foreground: #ffffff;
-  --color-secondary: #ffffff;
-  --color-secondary-foreground: #262626;
-  --color-muted: #ffffff;
-  --color-muted-foreground: #6b6b6b;
-  --color-accent: #1c69d4;
-  --color-accent-foreground: #ffffff;
-  --color-destructive: #dc2626;
-  --color-destructive-foreground: #ffffff;
   --color-border: #e5e5e5;
-  --color-input: #e5e5e5;
-  --color-ring: #1c69d4;
+  --color-background: #ffffff;
+  --color-foreground: #0a0a0a;
 }
 
 * {
@@ -31,5 +38,6 @@ body {
   margin: 0;
   background-color: var(--color-background);
   color: var(--color-foreground);
+  font-family: var(--font-geist);
 }
 
